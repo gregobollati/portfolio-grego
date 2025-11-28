@@ -1,18 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
-
 import {
   Briefcase,
-  GraduationCap,
-  Mail,
-  Phone,
-  MapPin,
-  Linkedin,
-  ChevronDown,
-  ExternalLink,
-  Globe,
-  User
+  FileSpreadsheet,
+  Globe
 } from 'lucide-react';
+
+
 
 
 // Colores personalizados (simulados con Tailwind)
@@ -77,14 +71,14 @@ const App = () => {
     }
   ];
 
-  const skills = [
-    { name: "Python", icon: /*<Code size={20} />*/, level: "Avanzado" },
-    { name: "SQL", icon: /*<Database size={20} />*/, level: "Intermedio" },
-    { name: "Power BI", icon: <FileSpreadsheet size={20} />, level: "Intermedio" },
-    { name: "AutoCAD / Inventor", icon: /*<Settings size={20} />*/, level: "Diseño" },
-    { name: "Microsoft Office", icon:/* <FileSpreadsheet size={20} />*/, level: "Avanzado" },
-    { name: "Inglés", icon: <Globe size={20} />, level: "Nivel Medio" },
-  ];
+const skills = [
+  { name: "Python", icon: <Briefcase size={20} />, level: "Avanzado" },
+  { name: "SQL", icon: <Briefcase size={20} />, level: "Intermedio" },
+  { name: "Power BI", icon: <FileSpreadsheet size={20} />, level: "Intermedio" },
+  { name: "AutoCAD / Inventor", icon: <Briefcase size={20} />, level: "Diseño" },
+  { name: "Microsoft Office", icon: <FileSpreadsheet size={20} />, level: "Avanzado" },
+  { name: "Inglés", icon: <Globe size={20} />, level: "Nivel Medio" }
+];
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-800">
