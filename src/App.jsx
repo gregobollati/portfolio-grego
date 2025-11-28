@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Globe, User } from 'lucide-react';
 
+import { Code } from 'lucide-react';
 
 
 
@@ -227,7 +228,6 @@ const App = () => {
       <section id="habilidades" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex items-center gap-3 mb-12">
-            <Code className="text-blue-600" size={32} />
             <h2 className="text-3xl font-bold text-slate-900">Habilidades Técnicas</h2>
           </div>
 
