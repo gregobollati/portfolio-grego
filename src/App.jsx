@@ -1,8 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { Globe, User } from 'lucide-react';
 
-import { Code } from 'lucide-react';
 
+import {
+  Briefcase,
+  GraduationCap,
+  Mail,
+  Phone,
+  MapPin,
+  Linkedin,
+  ChevronDown,
+  ExternalLink,
+  Globe,
+  User
+} from 'lucide-react';
 
 
 // Colores personalizados (simulados con Tailwind)
@@ -68,11 +78,11 @@ const App = () => {
   ];
 
   const skills = [
-    { name: "Python", icon: <Code size={20} />, level: "Avanzado" },
-    { name: "SQL", icon: <Database size={20} />, level: "Intermedio" },
+    { name: "Python", icon: /*<Code size={20} />*/, level: "Avanzado" },
+    { name: "SQL", icon: /*<Database size={20} />*/, level: "Intermedio" },
     { name: "Power BI", icon: <FileSpreadsheet size={20} />, level: "Intermedio" },
-    { name: "AutoCAD / Inventor", icon: <Settings size={20} />, level: "Diseño" },
-    { name: "Microsoft Office", icon: <FileSpreadsheet size={20} />, level: "Avanzado" },
+    { name: "AutoCAD / Inventor", icon: /*<Settings size={20} />*/, level: "Diseño" },
+    { name: "Microsoft Office", icon:/* <FileSpreadsheet size={20} />*/, level: "Avanzado" },
     { name: "Inglés", icon: <Globe size={20} />, level: "Nivel Medio" },
   ];
 
