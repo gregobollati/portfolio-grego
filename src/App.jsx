@@ -1,11 +1,18 @@
+
 import React, { useState, useEffect } from 'react';
 
 import {
   Briefcase,
-  FileSpreadsheet,
-  Globe
+  GraduationCap,
+  Mail,
+  Phone,
+  MapPin,
+  Linkedin,
+  ChevronDown,
+  ExternalLink,
+  Globe,
+  FileSpreadsheet
 } from 'lucide-react';
-
 
 
 
