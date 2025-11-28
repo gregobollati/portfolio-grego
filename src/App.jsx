@@ -3,6 +3,7 @@ import { Globe, User } from 'lucide-react';
 
 
 
+
 // Colores personalizados (simulados con Tailwind)
 // Slate-900 para textos principales
 // Blue-600 para acentos (confianza, ingeniería)
