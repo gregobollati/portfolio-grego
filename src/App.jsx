@@ -77,13 +77,14 @@ const App = () => {
   ];
 
 const skills = [
+  { name: "Python",           icon: <Briefcase size={20} />,      level: "Avanzado" },
+  { name: "SQL",              icon: <Briefcase size={20} />,      level: "Intermedio" },
+  { name: "Power BI",         icon: <FileSpreadsheet size={20} />, level: "Intermedio" },
+  { name: "AutoCAD / Inventor", icon: <Briefcase size={20} />,    level: "Diseño" },
   { name: "Microsoft Office", icon: <FileSpreadsheet size={20} />, level: "Avanzado" },
-  { name: "Inglés", icon: <Globe size={20} />, level: "Nivel Medio" }
-  { name: "Python", icon: <Briefcase size={20} />, level: "Intermedio" },
-  { name: "SQL", icon: <Briefcase size={20} />, level: "Intermedio" },
-  { name: "Power BI", icon: <FileSpreadsheet size={20} />, level: "Intermedio" },
-  { name: "AutoCAD / Inventor", icon: <Briefcase size={20} />, level: "Intermedio" },
+  { name: "Inglés",           icon: <Globe size={20} />,          level: "Nivel Medio" },
 ];
+
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-800">
